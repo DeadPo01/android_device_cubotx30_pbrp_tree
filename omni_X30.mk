@@ -28,6 +28,8 @@ $(call inherit-product, device/cubot/X30/device.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X30
 PRODUCT_NAME := omni_X30
