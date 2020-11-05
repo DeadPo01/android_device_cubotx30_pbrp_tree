@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-PBRP_PATH := device/cubot/X30
+DEVICE_PATH := device/cubot/X30
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
